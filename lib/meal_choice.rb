@@ -4,7 +4,7 @@ def meal_choice(protein = "meat", veg1, veg2)
   puts "A plate of #{protein} with #{veg1} and #{veg2}."
 end
 
-meal_choice
+meal_choice("meat", "broccoli", "macaroni")
 
 def meal_choice (protein = "meat", veg1, veg2)
   puts "A plate of #{protein} with #{veg1} and #{veg2}."
@@ -17,4 +17,4 @@ def meal_choice (protein = "meat", veg1, veg2)
   puts "A plate of #{protein} with #{veg1} and #{veg2}."
 end
 
-meal_choice("tofu", "broccoli", "macaroni")
+meal_choice("meat", "broccoli", "macaroni")
